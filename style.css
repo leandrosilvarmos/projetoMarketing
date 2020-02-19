@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+h2 {
+    font-family: Nixie One , sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin: auto;
+}
+body{
+    background-image: url("chevron.png");
+}
+
+
+
+.navbar{
+    width: 100%;
+    background-color: rgb(127, 188, 245);
+    height: 10vh;
+    /* display:inline-block;
+    overflow: hidden; */
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navbar-item{
+    width: 50vh;
+    padding: 10px;
+    float: right;
+}
+
+
+
+.navbar-item a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Nixie One , sans-serif;
+    color: black;
+    padding: 15px;
+
+}
+
+.navbar-item a:hover{
+    color: gold;
+}
+
+.navbar-brand img{
+    width: 10%;
+
+}
+.navbar-brand {
+    margin: 10px;
+    float: left;
+
+}
+
