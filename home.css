@@ -1,37 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
-.container{
-width: 90%;
-margin: auto;
-background-color: honeydew;
 
 
+/*  Definições do estilo da página inicial evento do dia */
 
-}
 
-.form-eventos{
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-
-}
-
-.form-eventos form{
+.wrapper-info{
     width: 100%;
-background-color: coral;
-border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: blue;
 }
 
-form input , form button , form textarea{
-    width: 45%;
+
+.day-evento{
+    width: 90%;
+    margin: 2% 0;
+
+}
+
+.card-day{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.card-day .card-text{
+    font-size: 18px;
+    text-align: center;
+    line-height: 4;
+    font-family: Roboto Condensed , sans-serif;
     margin: 2%;
-    padding: 2%;
-    box-sizing: border-box ;
-    border-radius: 5px;
-    border: solid 1px black
+
+}
+.card-day img{
+    width:80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 5%;
 }
 
-.evento{
+
+
+
+.form-convidados{
+    width:70% ;
+    float: right;
+    margin: 2% 0;
+}
+
+.form-convidados form{
+    padding: 10px;
+    width: 60%;
+    background-color: coral;
+}
+
+
+
+/*  */
+
+.eventos{
 width: 100%;   
  height: auto;
     margin: 2% 0%;
@@ -42,8 +74,9 @@ width: 100%;
    
 }
 
+
 .cards-eventos{
-width: 80%;
+width: 65%;
 height: auto;
     background-color: cornsilk;
     margin: 5%;
@@ -59,6 +92,12 @@ height: auto;
     padding: 1%;
 }
 
+
+.cards-info {
+    text-align: center;
+    font-size: 16px;
+
+}
 .cards-eventos img{
     width: 70%;
     height: auto;
@@ -67,3 +106,41 @@ height: auto;
     padding: 5%;
 
 }
+
+
+/* Definições de estilo do formulario de  criação de eventos  */
+
+.form-eventos{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+
+.form-eventos form{
+    margin-top: 5%;
+    width: 45%;
+border-radius: 2%;
+}
+
+form input , form button {
+   
+    
+     width: 40%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+
+
+form textarea{
+    width: 50%;
+    margin: 2%;
+    padding: 1%;
+    box-sizing: border-box ;
+    border-radius: 5px;
+    border: solid 1px black
+}
+
