@@ -48,18 +48,44 @@
 
 
 .form-convidados{
-    width:70% ;
-    float: right;
-    margin: 2% 0;
+    
+    width:100% ;
+    margin-top: 2% ;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
 }
 
 .form-convidados form{
-    padding: 10px;
-    width: 60%;
+  
+    width: 50%;
     background-color: coral;
 }
 
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
 
+.input-container i {
+  padding: 5px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 40%;
+  padding: 10px;
+  outline: none;
+  border-radius: 1px ;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
 
 /*  */
 
@@ -123,7 +149,7 @@ height: auto;
 border-radius: 2%;
 }
 
-form input , form button {
+/* form input , form button {
    
     
      width: 40%;
@@ -142,5 +168,5 @@ form textarea{
     box-sizing: border-box ;
     border-radius: 5px;
     border: solid 1px black
-}
+} */
 
