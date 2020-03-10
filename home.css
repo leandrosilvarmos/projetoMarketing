@@ -47,25 +47,63 @@
 
 
 .form-convidados{
-    
-    width:100% ;
-    margin-top: 2% ;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    margin-top: 60px;
 }
 
-.form-convidados form{
+.form-about, .form {
+    padding: 25px 0;
+    width: 500px;
+
+}
+
+.form-about {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 40%;
-    background-color: coral;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icone-about{
+    width: 100%;
+    text-align: center;
+}
+
+
+.form-about p {
+
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 2;
+}
+.form-about i {
+    padding: 30px 0;
+    font-size: 80px;
+    color: rgb(144, 146, 146);
+
 }
 
 .input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    width: 300px;
+}
+
+ .form-convidados > .form-about{
+    background-color:#ebdddd;
+} 
+
+.form-convidados > .form{
+    background-color: coral;
+} 
+
+
+ .input-container {
   display: flex;
-  width: 100%;
   margin-bottom: 15px;
 }
 
@@ -73,12 +111,12 @@
   padding: 10px;
   background-color: #ebdddd;
   color: black;
-  min-width: 25px;
+  min-width: 20px;
   text-align: center;
 }
 
 .input-field {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   outline: none;
   border: 1px solid black;
@@ -88,97 +126,47 @@
   border: 2px solid dodgerblue;
 }
 
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    background-color: blanchedalmond;
+}
+
 /*  */
 
 .eventos{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    /* background-color: cornflowerblue; */
-    margin: 2% 0;
+    margin: 10% 0;
     border-bottom: 1px solid slateblue;
-
-
-
-   
 }
 
-
-.cards-eventos{
-    border-radius: 4px;
-     /* border: 1px solid rgb(24, 23, 23); */
-    height: auto;
-    width: 30%;
-    margin: 5%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    /* line-height: 24px; */
-}
 
 .cards-info h2{
     border-bottom: 3px solid teal;
 }
 
-
-
-
 .cards-info {
-    text-align: justify;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     line-height: 2;
-    padding: 10px 0;
+    padding: 20px;
+    width: 500px;
     font-family: Roboto, sans-serif;
+    font-size: 16px;
+
 
 }
+
+
 .eventos img{
-    width: 30vh;
-    padding: 5%;
+    width: 50vh;
+    padding: 10%;
 
 }
 
-
-/* Definições de estilo do formulario de  criação de eventos  */
-
-.form-eventos{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-
-}
-
-
-.form-eventos form{
-    margin-top: 5%;
-    width: 45%;
-border-radius: 2%;
-}
-
-
-
-
-
-
-
-
-/* form input , form button {
-   
-    
-     width: 40%;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 5px;
-    border: solid 1px black;
-}
-
-
-
-form textarea{
-    width: 50%;
-    margin: 2%;
-    padding: 1%;
-    box-sizing: border-box ;
-    border-radius: 5px;
-    border: solid 1px black
-} */
 

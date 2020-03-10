@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 
@@ -69,26 +71,161 @@ body{
 }
 
 
-.container-footer{
-    width: 100%;
+
+
+/* FOTTER */
+footer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.container-footer .about{
-    background-color: wheat;
-    
-}
-
-
-.footer-copyright{
+    background: rgb(179, 174, 174);
+    height: 300px;
     width: 100%;
-    height: auto;
-    display: flex;
     justify-content: center;
-    background-color: lightskyblue;
-    font-family: Roboto Condensend ;
-    font-size: 16px;
-    font-weight: 100;
-}
+    align-items: center;
+
+
+  }
+
+  .ft-container{
+    display: flex;
+    width: 90%;
+    height: 200px;
+  }
+
+  .footer-header {
+    padding: 10px 0;
+    color: rgb(233, 229, 229);
+    font-family: Nixie One , sans-serif;
+    font-size: 20px;
+  }
+
+  .about-help {
+    width: 300px;
+    padding: 0 30px;
+  }
+
+  .about-copyright{
+width: 500px;
+padding: 20px;
+  }
+
+  .about-copyright p{
+    padding: 10px 0;
+  }
+  
+  .about-empresa {
+    width: 400px;
+    border-right: 1px solid black ;
+  }
+
+
+  .about-empresa p {
+    line-height: 2;
+  }
+
+
+  .footer-list-top {
+    list-style: none;
+  }
+  .footer-list-top li {
+    padding-bottom: 10px;
+  }
+
+  .footer-list-top a{
+      font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+  }
+ 
+
+
+
+  /* RESPONSIVO  */
+  @media only screen and (max-width: 768px) {
+    .footer-list-header {
+      font-size: 2em
+    }
+    .footer-list-anchor {
+      font-size: 1.1em
+    }
+    .footer-social-connect {
+      font-size: 2.5em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.3em
+    }
+  }
+  @media only screen and (max-width: 568px) {
+    main {
+      font-size: 5em
+    }
+    .footer-list-top {
+      width: 100%
+    }
+    .footer-list-header {
+      font-size: 3em;
+    }
+    .footer-list-anchor {
+      font-size: 1.5em
+    }
+    .footer-social-section {
+      justify-content: center
+    }
+    .footer-social-section::after {
+      top: 25%
+    }
+    .footer-social-connect {
+      margin-bottom: 10px;
+      padding: 0 10px
+    }
+    .footer-social-overlap {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-social-icons-wrapper {
+      width: 100%;
+      padding: 0
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 20px;
+    }
+    .footer-bottom-section {
+      padding: 0 5px 10px 5px
+    }
+    .footer-bottom-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-top: 10px
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .footer-social-overlap > a {
+      margin: auto
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 0;
+    }
+    .footer-bottom-rights {
+      display: block
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .footer-list-header {
+      font-size: 2.2em
+    }
+    .footer-list-anchor {
+      font-size: 1.2em
+    }
+    .footer-social-connect {
+      font-size: 2.4em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.3em
+    }
+  }
