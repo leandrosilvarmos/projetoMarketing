@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 <header>
@@ -34,44 +35,54 @@
 <body>
 
     <main>
-        <section class="container">
 
-            <section class="form-eventos">
+        <section class="form-eventos">
 
+            <div class="form-about">
                 <h2> Agendar Evento </h2>
+                <i class="icone-about material-icons">post_add</i>
+
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit harum impedit nemo saepe
+                    obcaecati ullam eveniet expedita optio? Blanditiis, sunt ducimus! Voluptates natus temporibus cum
+                    repellat deserunt atque, suscipit dicta.</p>
+            </div>
 
 
-
+            <div class="form">
                 <form action="#">
 
 
-                    <div>
-                        <input type="text" placeholder="Nome do Evento">
-                        <input type="text" placeholder=" Local do Evento / Empreendimento">
-                    </div>
-
-
-                    <div>
-                        <input type="text" placeholder="Data de Inicio do evento">
-                        <input type="text" placeholder="Data de Termino">
-                    </div>
-
-                    <div>
-                        <div> <textarea name="%" id=""  rows="5" placeholder="Descriçao do Evento "></textarea></div>
-
+                    <div class="input-container">
+                        <input class="input-field" type="text" placeholder="Nome do Evento">
+                        <input class="input-field" type="text" placeholder=" Local do Evento / Empreendimento">
                     </div>
 
 
 
+                    <div class="input-container">
+                        <input class="input-field" type="text" placeholder="Data de Inicio do evento">
+                        <input class="input-field" type="text" placeholder="Data de Termino">
+                    </div>
 
-                    <button type=" submit"> Cadastrar Evento </button>
+                    <div class="input-container">
+                        <textarea cols="50" rows="10" placeholder="Descriçao do Evento "></textarea>
+                    </div>
+
+                    <div class="input-container">
+                        <button type=" submit"> Cadastrar Evento </button>
+                    </div>
 
                 </form>
-
-            </section>
+            </div>
 
 
         </section>
+
+
+        <section class="table-eventos">
+
+        </section>
+
     </main>
 
 </body>

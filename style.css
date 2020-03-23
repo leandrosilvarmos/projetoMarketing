@@ -16,18 +16,22 @@ h2 {
     text-align: justify;
     font-size: 25px;
 }
-body{
-    background-image: url("chevron.png");
-}
+/* body{
+    background-image: url("6452.jpg");
+      background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #464646;
+
+
+} */
 
 
 
 .navbar{
     width: 100%;
     background-color: rgb(127, 188, 245);
-    height: 10vh;
-    /* display:inline-block;
-    overflow: hidden; */
     display: flex;
     align-items: center;
 }
@@ -39,8 +43,7 @@ body{
 }
 
 .navbar-item{
-    width: 50vh;
-    padding: 10px;
+    width: 350px;
     float: right;
 }
 
@@ -98,10 +101,7 @@ footer{
     font-size: 20px;
   }
 
-  .about-help {
-    width: 300px;
-    padding: 0 30px;
-  }
+
 
   .about-copyright{
 width: 500px;
@@ -113,7 +113,7 @@ padding: 20px;
   }
   
   .about-empresa {
-    width: 400px;
+    width: 600px;
     border-right: 1px solid black ;
   }
 

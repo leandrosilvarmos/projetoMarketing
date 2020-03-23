@@ -10,37 +10,32 @@
     width: 100%;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-.day-evento{
-    width: 90%;
-    margin: 2% 0;
+  background-color:rgb(127, 188, 245);
+  border-top:1px solid rgba(255, 53, 53, 0.877);
 
 }
 
-.card-day{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    background-color: cadetblue;
+
+.eventday-about , .eventday-img{
+    padding: 50px 20px;
+    width: 500px;
+
 }
 
-.card-day .card-text{
+.eventday-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eventday-about p{
     font-size: 18px;
-    text-align: center;
-    line-height: 4;
+    line-height: 2;
     font-family: Roboto Condensed , sans-serif;
-    margin: 2%;
 
 }
-.card-day img{
-    width:80%;
-    height: auto;
-    margin: auto;
-    display: block;
-    padding: 5%;
+.eventday-img img{
+    width: 545px;
 }
 
 
@@ -54,7 +49,7 @@
 
 .form-about, .form {
     padding: 25px 0;
-    width: 500px;
+    width: 600px;
 
 }
 
@@ -84,26 +79,20 @@
 
 }
 
-.input-container {
-    display: flex;
-    justify-content: center;
-}
 
-.input-field {
-    width: 300px;
-}
 
- .form-convidados > .form-about{
+ .form-about{
     background-color:#ebdddd;
 } 
 
-.form-convidados > .form{
+.form{
     background-color: coral;
 } 
 
 
  .input-container {
   display: flex;
+  justify-content: center;
   margin-bottom: 15px;
 }
 
@@ -116,7 +105,7 @@
 }
 
 .input-field {
-  width: 60%;
+    width: 300px;
   padding: 10px;
   outline: none;
   border: 1px solid black;
@@ -169,4 +158,11 @@ button{
 
 }
 
+
+.form-eventos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
 
