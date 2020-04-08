@@ -10,12 +10,12 @@
 }
 
 
-h2 {
+/* h2 {
     font-family: Nixie One , sans-serif ;
     font-weight: bold;
     text-align: justify;
     font-size: 25px;
-}
+} */
 /* body{
     background-image: url("6452.jpg");
       background-size: cover;
@@ -31,7 +31,7 @@ h2 {
 
 .navbar{
     width: 100%;
-    background-color: rgb(127, 188, 245);
+    background-color:rgba(193, 223, 252, 0.822);
     display: flex;
     align-items: center;
 }
@@ -140,7 +140,7 @@ padding: 20px;
 
 
 
-  /* RESPONSIVO  */
+  /* RESPONSIVO 
   @media only screen and (max-width: 768px) {
     .footer-list-header {
       font-size: 2em
@@ -228,4 +228,4 @@ padding: 20px;
     .footer-bottom-wrapper {
       font-size: 1.3em
     }
-  }
+  } */
